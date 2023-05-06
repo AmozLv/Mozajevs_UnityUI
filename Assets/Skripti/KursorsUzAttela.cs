@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class KursorsUzAttela : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	public AudioSource skanasAvots;
+	public AudioClip skanaKoAtskanot;
+
+	public void uzbiditsUzAttela(){
+		skanasAvots.PlayOneShot (skanaKoAtskanot);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	public void kursorsNost(){
+		skanasAvots.Stop();
+
 	}
 }
