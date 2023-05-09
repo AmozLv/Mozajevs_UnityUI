@@ -7,7 +7,7 @@ public class AinuParsledzejs : MonoBehaviour {
 	public void UzSakumu(){
 		SceneManager.LoadScene ("Sakums", LoadSceneMode.Single);
 	}
-	public void UzUIelementi(){
+	public void UzMain(){
 		SceneManager.LoadScene ("Aina1", LoadSceneMode.Single);
 	}
 	public void apturet(){
